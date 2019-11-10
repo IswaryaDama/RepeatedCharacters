@@ -17,14 +17,14 @@ public class RepeatedCharacter {
    	//Use Scanner to get input from console
       String input;
       Scanner s =new Scanner(System.in);
-      input = s.next();
+      input = s.nextLine();
      Character result = findRepeatedCharacter(input);
      if(result == '0') {
     	 System.out.println("No Characters Repeated");
-     }
+     }else {
       System.out.println(result);
 	}
-
+    }
 	public static Character findRepeatedCharacter(String input) {
 		//if(input.isEmpty() )
 		if(input.isEmpty() || input ==null) {
