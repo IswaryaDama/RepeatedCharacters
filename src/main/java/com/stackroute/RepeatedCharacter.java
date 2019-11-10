@@ -20,7 +20,7 @@ public class RepeatedCharacter {
       input = s.nextLine();
      Character result = findRepeatedCharacter(input);
      if(result == '0') {
-    	 System.out.println("No Characters Repeated");
+    	 System.out.println("Nocharactersrepeated");
      }else {
       System.out.println(result);
 	}
